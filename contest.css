@@ -1,0 +1,101 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* THIS CSS IS FOR HEADER  */
+
+.Loginheader {
+  overflow: hidden;
+  padding: 1%;
+}
+
+.logo{
+  height: 60px;
+}
+
+.zoom>a {
+  transition: transform .2s;
+  /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* Style the header links */
+.Loginheader_right>a {
+  margin-left: 2%;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 14px;
+}
+
+/* Change the background color on mouse-over */
+.Loginheader a:hover {
+  text-decoration: underline;
+  color: black;
+  color: indianred;
+}
+
+.active {
+  background-color: #eddddd;
+  color: black;
+}
+
+
+/* header close here  */
+
+/* main screen is start here  */
+
+.mainScreen{
+  height: 100%;
+  width: 100%;
+}
+/* main screen is start here  */
+
+.Our_Categories{
+  padding:1%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* max-width: 300px; */
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .card button {
+    border: 2px solid rgb(174, 174, 241);
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: #eddddd;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .card button a
+  {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .card button:hover {
+    background-color: aquamarine;
+  }
+
+
+  /* footer css  */
+  
+  .footer_color>a,p
+{
+color: wheat;
+text-decoration: none;
+}

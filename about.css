@@ -1,0 +1,57 @@
+/* THIS CSS IS FOR HEADER  */
+
+.Loginheader {
+    overflow: hidden;
+    padding: 1%;
+    /* position: fixed;
+    overflow: hidden;
+    top: 0; */
+  }
+  
+  .logo{
+    height: 60px;
+  }
+  .zoom>a {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  /* Style the header links */
+  .Loginheader_right>a {
+    margin-left: 2%;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 14px;
+  }
+  
+  /* Change the background color on mouse-over */
+  .Loginheader a:hover {
+    text-decoration: underline;
+    color: black;
+    color: indianred;
+  }
+  
+  .active {
+    background-color: #eddddd;
+    color: black;
+  }
+  
+  /* header close here  */
+
+
+  /* footer css start here */
+
+  .footer_color>a,p
+  {
+color: wheat;
+text-decoration: none;
+  }
+
+  /* footer css end here here */
